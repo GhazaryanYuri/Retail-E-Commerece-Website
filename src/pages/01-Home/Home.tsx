@@ -1,11 +1,53 @@
 // Importing dependecies
 import Banner from "../../components/03-Banner/Banner";
+import ProductOverview from "../../components/05-ProductOverview/ProductOverview";
+
+// Importing images
+import BathromTilesBg from "../../assets/images/bathroom-tiles-bg.png";
+import MarbleBg from "../../assets/images/marble-bg.png";
+import OutdoorFlooringBg from "../../assets/images/outdoor-flooring-bg.png";
+import KitchenInteriorBg from "../../assets/images/kitchen-interior-bg.png";
 
 // Home page
 const Home = () => {
   return (
     <div className="w-full h-auto mt-8.25 flex flex-col justify-center items-center">
       <Banner />
+      <ProductOverview
+        componentInfo={{
+          title: "Products",
+          description:
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro non adipisci accusantium facilis, quidem excepturi quam beatae, tempora, quod pariatur ex amet.",
+        }}
+        productInfo={{
+          item: [
+            {
+              img: BathromTilesBg,
+              title: "Bathroom Tiles",
+              bio: "Ante mus blandit sapien sociosqu per consequat ad.",
+              id: 0,
+            },
+            {
+              img: MarbleBg,
+              title: "Marble",
+              bio: "Ante mus blandit sapien sociosqu",
+              id: 1,
+            },
+            {
+              img: OutdoorFlooringBg,
+              title: "Outdoor Flooring",
+              bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, fuga.",
+              id: 2,
+            },
+            {
+              img: KitchenInteriorBg,
+              title: "Kitchen Interior",
+              bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, fuga.",
+              id: 3,
+            },
+          ],
+        }}
+      />
     </div>
   );
 };
