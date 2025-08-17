@@ -28,76 +28,69 @@ const ProductOverview = ({ componentInfo, productInfo }: Props) => {
         {componentInfo.description}
       </p>
 
-      <div className="grid grid-cols-6 gap-4 w-full max-h-[568px]">
-        {/* Left big image */}
-        {productInfo.item[0] && (
-          <div className="col-span-2 relative group">
-            <img
-              src={productInfo.item[0].img}
-              alt={productInfo.item[0].title}
-              className="w-full h-full object-cover rounded"
-            />
-            <div className="w-[90%] border-2 border-white border-b-0 absolute bottom-[-3%] left-[50%] translate-x-[-50%] bg-[#111010] text-center">
-              <h3 className="font-bold text-2xl text-white">
-                {productInfo.item[0].title}
-              </h3>
-              <p className="text-base text-[#b4b4b4]">
-                {productInfo.item[0].bio}
-              </p>
+      <div className="w-full h-auto flex justify-center items-center gap-12">
+        <div className="w-auto h-auto flex justify-center items-center gap-12">
+          {productInfo.item[0] && (
+            <div className="w-[575px] h-[618px] relative">
+              <img
+                src={productInfo.item[0].img}
+                alt={productInfo.item[0].img}
+              />
+              <div className="w-[535px] h-[114px] absolute bottom-1 left-1/2 translate-x-[-50%] translate-y-1/5 bg-[#111010] gap-2.5 flex flex-col items-center justify-center border-4 border-white border-b-0">
+                <h1 className="text-2xl text-white font-bold tracking-wider">
+                  {productInfo.item[0].title}
+                </h1>
+                <p className="text-base text-[#b4b4b4] tracking-wide">
+                  {productInfo.item[0].bio}
+                </p>
+              </div>
             </div>
-          </div>
-        )}
-
-        {/* Middle tall image */}
-        {productInfo.item[1] && (
-          <div className="col-span-2 relative group">
-            <img
-              src={productInfo.item[1].img}
-              alt={productInfo.item[1].title}
-              className="w-full h-full object-cover rounded"
-            />
-            <div className="w-[90%] border-2 border-white border-b-0 absolute bottom-[-3%] left-[50%] translate-x-[-50%] bg-[#111010] text-center">
-              <h3 className="font-bold text-white text-2xl">
-                {productInfo.item[1].title}
-              </h3>
-              <p className="text-base text-[#b4b4b4]">
-                {productInfo.item[1].bio}
-              </p>
+          )}
+          {productInfo.item[1] && (
+            <div className="w-[339px] h-[618px] relative">
+              <img
+                src={productInfo.item[1].img}
+                alt={productInfo.item[1].img}
+              />
+              <div className="w-[299px] h-[114px] absolute bottom-1 left-1/2 translate-x-[-50%] translate-y-1/5 bg-[#111010] gap-2.5 flex flex-col items-center justify-center border-4 border-white border-b-0">
+                <h1 className="text-2xl text-white font-bold tracking-wider">
+                  {productInfo.item[1].title}
+                </h1>
+                <p className="text-base text-[#b4b4b4] tracking-wide">
+                  {productInfo.item[1].bio}
+                </p>
+              </div>
             </div>
-          </div>
-        )}
-
-        {/* Right side stacked images */}
-        <div className="col-span-2 flex flex-col gap-4">
+          )}
+        </div>
+        <div className="w-auto h-auto flex flex-col justify-center items-center gap-12">
           {productInfo.item[2] && (
-            <div className="relative group flex-1">
+            <div className="w-[454px] h-[274px] relative">
               <img
                 src={productInfo.item[2].img}
-                alt={productInfo.item[2].title}
-                className="w-full h-full object-cover rounded"
+                alt={productInfo.item[2].img}
               />
-              <div className="w-[90%] border-2 border-white border-b-0 absolute bottom-[-3%] left-[50%] translate-x-[-50%] bg-[#111010] text-center">
-                <h3 className="font-bold text-2xl text-white">
+              <div className="w-[415px] h-[114px] absolute bottom-1 left-1/2 translate-x-[-50%] translate-y-1/5 bg-[#111010] gap-2.5 flex flex-col items-center justify-center border-4 border-white border-b-0 text-center">
+                <h1 className="text-2xl text-white font-bold tracking-wider">
                   {productInfo.item[2].title}
-                </h3>
-                <p className="text-base text-[#b4b4b4]">
+                </h1>
+                <p className="text-base text-[#b4b4b4] tracking-wide">
                   {productInfo.item[2].bio}
                 </p>
               </div>
             </div>
           )}
           {productInfo.item[3] && (
-            <div className="relative group flex-1">
+            <div className="w-[454px] h-[274px] relative">
               <img
                 src={productInfo.item[3].img}
-                alt={productInfo.item[3].title}
-                className="w-full h-full object-cover rounded"
+                alt={productInfo.item[3].img}
               />
-              <div className="w-[90%] border-2 border-white border-b-0 absolute bottom-[-3%] left-[50%] translate-x-[-50%] bg-[#111010] text-center">
-                <h3 className="font-bold text-2xl text-white">
+              <div className="w-[415px] h-[114px] absolute bottom-1 left-1/2 translate-x-[-50%] translate-y-1/5 bg-[#111010] gap-2.5 flex flex-col items-center justify-center border-4 border-white border-b-0 text-center">
+                <h1 className="text-2xl text-white font-bold tracking-wider">
                   {productInfo.item[3].title}
-                </h3>
-                <p className="text-base text-[#b4b4b4]">
+                </h1>
+                <p className="text-base text-[#b4b4b4] tracking-wide">
                   {productInfo.item[3].bio}
                 </p>
               </div>
