@@ -1,12 +1,14 @@
 // Importing dependecies
 import Banner from "../../components/03-Banner/Banner";
 import ProductOverview from "../../components/05-ProductOverview/ProductOverview";
+import InfoBanner from "../../components/06- Info Banner/InfoBanner";
 
 // Importing images
 import BathromTilesBg from "../../assets/images/bathroom-tiles-bg.png";
 import MarbleBg from "../../assets/images/marble-bg.png";
 import OutdoorFlooringBg from "../../assets/images/outdoor-flooring-bg.png";
 import KitchenInteriorBg from "../../assets/images/kitchen-interior-bg.png";
+import InfoBannerBg1 from "../../assets/images/info-banner-bg-1.png";
 
 // Home page
 const Home = () => {
@@ -47,6 +49,11 @@ const Home = () => {
             },
           ],
         }}
+      />
+      <InfoBanner
+        img={InfoBannerBg1}
+        title="Vision"
+        bio="Penatibus sem vitae mollis luctus mi tellus. Maximus eu eleifend aptent dapibus metus maecenas consequat. Elementum interdum a semper. Netus nullam eros nisi volutpat nibh ex ultricies. Pharetra sagittis sit aliquet at. Magna nam platea justo."
       />
     </div>
   );
