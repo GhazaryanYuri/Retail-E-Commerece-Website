@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 interface ButtonProps {
   innerText: string;
   bg?: string;
@@ -13,7 +15,7 @@ const Button = ({ innerText, bg, color, onClick }: ButtonProps) => {
       className="py-4 px-10 cursor-pointer font-bold tracking-wide hover:opacity-70 transition-all rounded-md"
       style={{ backgroundColor: bg || "white", color: color || "black" }}
     >
-      {innerText}
+      {innerText.toUpperCase()}
     </button>
   );
 };

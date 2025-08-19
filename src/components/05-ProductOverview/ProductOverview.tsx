@@ -19,7 +19,7 @@ interface Props {
 
 const ProductOverview = ({ componentInfo, productInfo }: Props) => {
   return (
-    <div className="w-full max-w-7xl mx-auto flex flex-col justify-center items-center gap-7 mt-12 px-4 py-6">
+    <div className="w-full max-w-7xl mx-auto flex flex-col justify-center items-center gap-7 mt-12 px-4 py-15">
       <h1 className="text-5xl font-bold text-[#111010]">
         {componentInfo.title}
       </h1>
