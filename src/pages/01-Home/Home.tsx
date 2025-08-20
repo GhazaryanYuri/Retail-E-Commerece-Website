@@ -3,6 +3,7 @@ import Banner from "../../components/03-Banner/Banner";
 import ProductOverview from "../../components/05-ProductOverview/ProductOverview";
 import InfoBanner from "../../components/06- Info Banner/InfoBanner";
 import SolutionDesigns from "../../components/07-Solution Designs/SolutionDesigns";
+import Projects from "../../components/08-Projects/Projects";
 
 // Importing images
 import BathromTilesBg from "../../assets/images/bathroom-tiles-bg.png";
@@ -57,6 +58,7 @@ const Home = () => {
         bio="Penatibus sem vitae mollis luctus mi tellus. Maximus eu eleifend aptent dapibus metus maecenas consequat. Elementum interdum a semper. Netus nullam eros nisi volutpat nibh ex ultricies. Pharetra sagittis sit aliquet at. Magna nam platea justo."
       />
       <SolutionDesigns />
+      <Projects />
     </div>
   );
 };

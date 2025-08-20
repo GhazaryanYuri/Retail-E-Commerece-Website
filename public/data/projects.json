@@ -1,0 +1,26 @@
+{
+  "title": "Projects",
+  "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+  "content": [
+    {
+      "id": 1,
+      "title": "Kingdom Tower",
+      "info": "Marble Flooring"
+    },
+    {
+      "id": 2,
+      "title": "Dubai mall",
+      "info": "Wood Flooring"
+    },
+    {
+      "id": 3,
+      "title": "King Road Offices",
+      "info": "Outdoor Flooring"
+    },
+    {
+      "id": 4,
+      "title": "Beach Tower Alupang",
+      "info": "Wood Flooring"
+    }
+  ]
+}
