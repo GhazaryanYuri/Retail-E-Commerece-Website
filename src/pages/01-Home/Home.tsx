@@ -4,6 +4,7 @@ import ProductOverview from "../../components/05-ProductOverview/ProductOverview
 import InfoBanner from "../../components/06- Info Banner/InfoBanner";
 import SolutionDesigns from "../../components/07-Solution Designs/SolutionDesigns";
 import Projects from "../../components/08-Projects/Projects";
+import Products from "../../components/09-Products/Products";
 
 // Importing images
 import BathromTilesBg from "../../assets/images/bathroom-tiles-bg.png";
@@ -11,6 +12,7 @@ import MarbleBg from "../../assets/images/marble-bg.png";
 import OutdoorFlooringBg from "../../assets/images/outdoor-flooring-bg.png";
 import KitchenInteriorBg from "../../assets/images/kitchen-interior-bg.png";
 import InfoBannerBg1 from "../../assets/images/info-banner-bg-1.png";
+import InfoBannerBg2 from "../../assets/images/info-banner-bg-2.png";
 
 // Home page
 const Home = () => {
@@ -59,6 +61,13 @@ const Home = () => {
       />
       <SolutionDesigns />
       <Projects />
+      <Products />
+      <InfoBanner
+        img={InfoBannerBg2}
+        title="Our Showrooms"
+        bio="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+        reversed={true}
+      />
     </div>
   );
 };

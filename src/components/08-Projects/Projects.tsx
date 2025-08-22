@@ -1,4 +1,4 @@
-// mporting dependecies
+// Importing dependecies
 import { useState, useEffect } from "react";
 import Button from "../04-Button/Button";
 
@@ -44,7 +44,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="w-full max-w-7xl mx-auto flex flex-col justify-center items-center gap-7 mt-12 px-4 py-15">
+    <div className="w-full flex flex-col justify-center items-center gap-7 mt-12 px-4 py-15">
       <h1 className="text-5xl font-bold text-[#111010]">
         {data && data.title}
       </h1>

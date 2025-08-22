@@ -1,0 +1,54 @@
+{
+  "title": "Tile Collections",
+  "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+  "products": [
+    {
+      "id": 1,
+      "name": "Zurich Vision 60×60",
+      "oldPrice": 449.99,
+      "newPrice": 237.99
+    },
+    {
+      "id": 2,
+      "name": "Zurich Pearl 60×60",
+      "oldPrice": 449.99,
+      "newPrice": 312.49
+    },
+    {
+      "id": 3,
+      "name": "Zurich Grey 60×60",
+      "oldPrice": 449.99,
+      "newPrice": 312.49
+    },
+    {
+      "id": 4,
+      "name": "Zurich Dark Grey 60×60",
+      "oldPrice": 449.99,
+      "newPrice": 312.49
+    },
+    {
+      "id": 5,
+      "name": "Windsor White Oak",
+      "oldPrice": 449.99,
+      "newPrice": 312.49
+    },
+    {
+      "id": 6,
+      "name": "Sicily Grey Décor 30×60",
+      "oldPrice": 449.99,
+      "newPrice": 312.49
+    },
+    {
+      "id": 7,
+      "name": "Sardinia White",
+      "oldPrice": 449.99,
+      "newPrice": 312.49
+    },
+    {
+      "id": 8,
+      "name": "Sicily Grey 30×60",
+      "oldPrice": 449.99,
+      "newPrice": 312.49
+    }
+  ]
+}
