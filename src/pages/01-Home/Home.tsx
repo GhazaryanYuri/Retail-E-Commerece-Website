@@ -17,7 +17,7 @@ import InfoBannerBg2 from "../../assets/images/info-banner-bg-2.png";
 // Home page
 const Home = () => {
   return (
-    <div className="w-full h-auto mt-8.25 flex flex-col justify-center items-center">
+    <div className="w-full h-auto mt-8.25 mb-8.25 flex flex-col justify-center items-center">
       <Banner />
       <ProductOverview
         componentInfo={{

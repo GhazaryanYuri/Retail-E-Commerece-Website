@@ -1,0 +1,51 @@
+{
+  "title": "Logo",
+  "categories": [
+    {
+      "title": "Products",
+      "links": [
+        {
+          "name": "Sand Stone",
+          "url": "#"
+        },
+        {
+          "name": "Stone",
+          "url": "#"
+        },
+        {
+          "name": "Cement",
+          "url": "#"
+        },
+        {
+          "name": "Soft Stone",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "title": "Services",
+      "links": [
+        {
+          "name": "Measurement Service",
+          "url": "#"
+        },
+        {
+          "name": "Product Advice",
+          "url": "#"
+        },
+        {
+          "name": "Interior Design",
+          "url": "#"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Contact Information",
+    "streets": [
+      "3181 Al Imam Saud Ibn Abdul Aziz Branch Rd",
+      "An Nuzhah",
+      "Riyadh 12474"
+    ]
+  }
+}
